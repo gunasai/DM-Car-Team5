@@ -2,7 +2,7 @@
 
 The main purpose of this project is to become familiar with data mining techniques, specifically Convolutional Neural Network (CNN), and to apply them to real world problems, i.e., autonomous vehicle.
 
-Pictures of assembly - ![Google Drive](https://drive.google.com/file/d/1zio-zZSUe7knNEc_1vDLkkJoXwUpKWCb/view?usp=sharing
+Pictures of assembly - [Google Drive](https://drive.google.com/file/d/1zio-zZSUe7knNEc_1vDLkkJoXwUpKWCb/view?usp=sharing
 https://drive.google.com/file/d/1550nYlVT14LL0Rtm0M_JmsPTUqUID9Hq/view?usp=sharing
 https://drive.google.com/file/d/1pPpPxvRFj3pKGvzm1vC9qhmBHoVnO_hV/view?usp=sharing
 https://drive.google.com/file/d/1skFl2YTcwQNsQlwiV-hkdmHcafmH1l2S/view?usp=sharing
