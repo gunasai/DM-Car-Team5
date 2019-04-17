@@ -1,21 +1,30 @@
-# DM-Car-Team5
+# Autonomous Vehicle using Data Mining Technique: Deep Learning
 
 The main purpose of this project is to become familiar with data mining techniques, specifically Convolutional Neural Network (CNN), and to apply them to real world problems, i.e., autonomous vehicle.
 
-## Assembly
+Pictures of assembly - ![Google Drive](https://drive.google.com/file/d/1zio-zZSUe7knNEc_1vDLkkJoXwUpKWCb/view?usp=sharing
+https://drive.google.com/file/d/1550nYlVT14LL0Rtm0M_JmsPTUqUID9Hq/view?usp=sharing
+https://drive.google.com/file/d/1pPpPxvRFj3pKGvzm1vC9qhmBHoVnO_hV/view?usp=sharing
+https://drive.google.com/file/d/1skFl2YTcwQNsQlwiV-hkdmHcafmH1l2S/view?usp=sharing
+https://drive.google.com/file/d/1z32HA7JAGrH3xo1Dp857yEf8v5j-cnf3/view?usp=sharing
+https://drive.google.com/file/d/19Fz13QAf4vYoh1POrcHUH6HJErmgr61L/view?usp=sharing
+https://drive.google.com/file/d/12g72JXNO6aQd358Y_J3rKQs9_eqBbEq1/view?usp=sharing
+https://drive.google.com/file/d/13V6S_NdE-RdXcaIsxUzwDeW_edxwPfy7/view?usp=sharing
+https://drive.google.com/file/d/1vQs1tR5Q8sMrAwXu0xWjEmmVJky7yxRS/view?usp=sharing
+https://drive.google.com/file/d/1_M3ELLRyr_1qFvQqxPjW6IH7-HlHDJ7w/view?usp=sharing
+https://drive.google.com/file/d/1w05DWWbVi4p982h5nxcR0EbbFaX3Y3PJ/view?usp=sharing
+https://drive.google.com/file/d/1NwSo4k0A5tSttkF9ISILtwUeA5Us6_UI/view?usp=sharing)
 
-![](/assembly-images/1.png?raw=true)
-![](/assembly-images/2.png?raw=true)
-![](/assembly-images/3.png?raw=true)
-![](/assembly-images/4.png?raw=true)
-![](/assembly-images/5.png?raw=true)
-![](/assembly-images/6.png?raw=true)
-![](/assembly-images/7.png?raw=true)
-![](/assembly-images/8.png?raw=true)
-![](/assembly-images/9.png?raw=true)
-![](/assembly-images/10.png?raw=true)
-![](/assembly-images/11.png?raw=true)
-![](/assembly-images/12.png?raw=true)
+In this project, we are going to use Raspberry Pi 3 model B+ to control servos using 
+Python. 
+
+The car has the following functionalities:
+1. Straight lane detection
+2. Controlling back wheel servos
+3. Controlling front wheel servos
+4. Camera module
+5. PID Control
+6. Creating Video Clip
 
 ## Suggestions
 
