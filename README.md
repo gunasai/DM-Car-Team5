@@ -1,9 +1,7 @@
 # Autonomous Vehicle using Data Mining Technique: Deep Learning
-***
 The main purpose of this project is to become familiar with data mining techniques, specifically Convolutional Neural Network (CNN), and to apply them to real world problems, i.e., autonomous vehicle.
 
 ## Pictures of assembly
-***
 1. [Image 1](https://drive.google.com/file/d/1zio-zZSUe7knNEc_1vDLkkJoXwUpKWCb/view?usp=sharing)
 2. [Image 2](https://drive.google.com/file/d/1550nYlVT14LL0Rtm0M_JmsPTUqUID9Hq/view?usp=sharing)
 3. [Image 3](https://drive.google.com/file/d/1pPpPxvRFj3pKGvzm1vC9qhmBHoVnO_hV/view?usp=sharing)
@@ -30,13 +28,11 @@ The car has the following functionalities:
 
 
 ## Dataset Characteristics
-***
 -Image size: 28x28px 
 -Number of images of stop sign: 299
 -Number of images of speed sign: 365
 
 ## CNN Characteristics
-***
 -**Architecture**: LeNet Architecture
 -**Optimizer**: Adam Optimizer
 
@@ -61,11 +57,10 @@ So, upon optimizing, we have achieved the following values:
 
 
 ## Stop Detection
-Video of the car detecting and halting at a stop sign: [Google Drive](https://drive.google.com/file/d/18YQs561FhR7xRYaCunriazyaRNLV-G4e/view?usp=sharing)
+Video of the car detecting and halting at a stop sign: [Link to Google Drive](https://drive.google.com/file/d/18YQs561FhR7xRYaCunriazyaRNLV-G4e/view?usp=sharing)
 
 
 ## Suggestions to overcome limitations
-
 1.  Train the car to calibrate the position of the car to the initial position in the beginning.
 2.  Train the car to understand different types of images with the same meaning.
 3.  The material with which the car has been assembled in very weak. A stronger material would be better while assembling the car.
