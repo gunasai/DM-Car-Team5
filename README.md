@@ -34,7 +34,15 @@ The car has the following functionalities:
 
 ## CNN Characteristics
 - **Architecture**: LeNet Architecture
-- **Optimizer**: Adam Optimizer
+- **Optimizer**: Adam Optimizer  
+
+The CNN has 1 input and 1 output layer, 2 convolutional layers.  
+In the first set of convolutional layers, we have 20 filters and the size is 5*5. Each convolution layer has an activation function, ReLU which is followed by the pooling layers.  
+  
+
+Pool size is 2,2 and the stride is 2,2.  
+The second set of convolutional layer is followed by another activation function, ReLU and a softmax function. It has 50 filters each of size 5*5.
+
 
 The model can be optimized by evaluating it against test data and determining the __Loss__ and __Accuracy__.  
 Upon evaluating the model and finding out the Loss and Accuracy, we have made the following observations:  
@@ -47,9 +55,11 @@ Upon evaluating the model and finding out the Loss and Accuracy, we have made th
 *As seen in graph below*
 ![](eval.png)
 
-So, upon optimizing, we have achieved the following values:
-- **epoch** = 25
-- **Dropout Value**: 0.2
+So, upon optimizing, we have determined the following values:
+- **# of epoch** = 25
+- **parameter values** = Convolutional layer 1- 25 filters of size 5x5, Convolutional layer 2 - 50 filters of 5x5
+- **drop out** = 0.2
+- **learning rate**: We used Adam optimizer with learning rate __le-3__. The learning rate decay over each update is __le-3/25__.
 
 
 ## Evaluating the Neural Network
