@@ -1,9 +1,9 @@
 # Autonomous Vehicle using Data Mining Technique: Deep Learning
-
+***
 The main purpose of this project is to become familiar with data mining techniques, specifically Convolutional Neural Network (CNN), and to apply them to real world problems, i.e., autonomous vehicle.
 
 ## Pictures of assembly
-
+***
 1. [Image 1](https://drive.google.com/file/d/1zio-zZSUe7knNEc_1vDLkkJoXwUpKWCb/view?usp=sharing)
 2. [Image 2](https://drive.google.com/file/d/1550nYlVT14LL0Rtm0M_JmsPTUqUID9Hq/view?usp=sharing)
 3. [Image 3](https://drive.google.com/file/d/1pPpPxvRFj3pKGvzm1vC9qhmBHoVnO_hV/view?usp=sharing)
@@ -30,31 +30,34 @@ The car has the following functionalities:
 
 
 ## Dataset Characteristics
-Image size: 28x28px 
-Number of images of stop sign: 299
-Number of images of speed sign: 365
+***
+-Image size: 28x28px 
+-Number of images of stop sign: 299
+-Number of images of speed sign: 365
 
 ## CNN Characteristics
-**Architecture**: LeNet Architecture
-**Optimizer**: Adam Optimizer
+***
+-**Architecture**: LeNet Architecture
+-**Optimizer**: Adam Optimizer
 
-The model can be optimized by evaluating it against test data and determining the __Loss__ and __Accuracy__.
-Upon evaluating the model and finding out the Loss and Accuracy, we have made the following observations:
-**loss**: 0.0425
-**acc**: 0.9875
-**val_loss**: 0.0198
-**val_acc**: 0.9940
+The model can be optimized by evaluating it against test data and determining the __Loss__ and __Accuracy__.  
+Upon evaluating the model and finding out the Loss and Accuracy, we have made the following observations:  
+
+-**loss**: 0.0425
+-**acc**: 0.9875
+-**val_loss**: 0.0198
+-**val_acc**: 0.9940
 
 *As seen in graph below*
-<img src="eval.png" alt="optimizing the model" width="300"/>
+![](eval.png)
 
 So, upon optimizing, we have achieved the following values:
-**epoch** = 25
-**Dropout Value**: 0.2
+-**epoch** = 25
+-**Dropout Value**: 0.2
 
 
 ## Evaluating the Neural Network
-<img src="image.png" alt="testing neural network" width="200"/>
+![](image.png)
 
 
 ## Stop Detection
