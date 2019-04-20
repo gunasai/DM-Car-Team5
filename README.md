@@ -28,14 +28,50 @@ The car has the following functionalities:
 5. PID Control
 6. Creating Video Clip
 
-## Suggestions
 
-1.  Train the car to calibrate the position of the car to the initial position in the beginning
-2.  Train the car to understand different types of images with the same meaning
-3.  The material with which the car has been assembled in very weak. A stronger material would be better while assembling the car
-4.  An option to manually control using joystick in addition to the automation, to overcome the exceptional situation proactively
-5.  Increase the memory of the card so that we can hold more data like bigger datasets, etc.
-6.  More reliable power supply
-7.  Since running the pi tends to heat the motherboard, better air circulation maybe required
+## Dataset Characteristics
+Image size: 28x28px 
+Number of images of stop sign: 299
+Number of images of speed sign: 365
 
+## CNN Characteristics
+**Architecture**: LeNet Architecture
+**Optimizer**: Adam Optimizer
+
+The model can be optimized by evaluating it against test data and determining the __Loss__ and __Accuracy__.
+Upon evaluating the model and finding out the Loss and Accuracy, we have made the following observations:
+**loss**: 0.0425
+**acc**: 0.9875
+**val_loss**: 0.0198
+**val_acc**: 0.9940
+
+*As seen in graph below*
+<img src="eval.png" alt="optimizing the model" width="300"/>
+
+So, upon optimizing, we have achieved the following values:
+**epoch** = 25
+**Dropout Value**: 0.2
+
+
+## Evaluating the Neural Network
+<img src="image.png" alt="testing neural network" width="200"/>
+
+
+## Stop Detection
+Video of the car detecting and halting at a stop sign: [Google Drive](https://drive.google.com/file/d/18YQs561FhR7xRYaCunriazyaRNLV-G4e/view?usp=sharing)
+
+
+## Suggestions to overcome limitations
+
+1.  Train the car to calibrate the position of the car to the initial position in the beginning.
+2.  Train the car to understand different types of images with the same meaning.
+3.  The material with which the car has been assembled in very weak. A stronger material would be better while assembling the car.
+4.  An option to manually control using joystick in addition to the automation, to overcome the exceptional situation proactively.
+5.  Increase the memory of the card so that it can hold more data like bigger datasets, etc.
+6.  More reliable power supply.
+7.  Since running the pi tends to heat the motherboard, better air circulation maybe required.
+8.  Lane detection can be improved by keeping the camera intact which can help analyze the road signs easily.
+9.  A smaller dataset has been used considering the limitation of computing power or a lack of GPU, using more images for training would be better.
+10. Using higher resolution images, would improve the performance of the model.
+11. Using deeper network architecture during training would make the model efficient.
 
