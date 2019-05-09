@@ -69,6 +69,11 @@ So, upon optimizing, we have determined the following values:
 ## Stop Detection
 Video of the car detecting and halting at a stop sign: [Link to Google Drive](https://drive.google.com/file/d/18YQs561FhR7xRYaCunriazyaRNLV-G4e/view?usp=sharing)
 
+## Clips of car detecting various traffic signs
+Clip 1: [Link to Google Drive](https://drive.google.com/open?id=1dA3tGCX0-bF6ztPXY2rY3rfj_6NxQpTo)
+Clip 2: [Link to Google Drive](https://drive.google.com/open?id=1_2WRxWlovXNYGuZJvaSZHS0fMCwrsIh4)
+Clip 3: [Link to Google Drive](https://drive.google.com/open?id=1n62VGi3BvuZShSR7JaLEwE7nIhZhUIMx)
+
 
 ## Suggestions to overcome limitations
 1.  Train the car to calibrate the position of the car to the initial position in the beginning.
